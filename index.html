@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Web site created using create-snowpack-app"
+    />
+    <!--
+      Snowpack will replace / with the value you have for `baseUrl` in `snowpack.config.js`.
+      Make sure to update it with your GitHub Page URL. https://<your-username>.github.io/<your-repo-name>
+
+      More about config options:
+      - https://www.snowpack.dev/reference/configuration#buildoptions.baseurl
+    -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/_dist_/index.css"
+    />
+    <title>Snowpack & Tailwind App</title>
+  </head>
+  <body>
+    <!--
+      This HTML file is a template.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+
+      Start modyfing from here.
+    -->
+    <div class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p
+          class="text-base leading-6 text-indigo-900 font-bold tracking-wide uppercase"
+        >
+          Manipulacion del DOM
+        </p>
+        <h3
+          class="mt-2 text-3xl leading-8 font-bold tracking-tight text-red-300 sm:text-4xl sm:leading-10"
+        >
+          Lazy loading <br>
+          🦊
+        </h3>
+        <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
+          Plugins en vanilla JavaScript para cargar imágenes con Lazy load <br> 🐌🐌🐌 <br><br>
+          Las imagenes agregadas no se descargaran hasta que sean visibles en pantalla <br> 🐌🐌🐌
+        </p>
+        <p class="p-2 text-red-300 -mb-3 mt-1">
+          Agrega una nueva imagen al final de la lista
+        </p>
+        <button id="add" class="mt-4 rounded-lg p-3 bg-red-900 text-gray-200 block center mx-auto w-28 focus:outline-none border border-gray-200 hover:bg-gray-200 hover:text-red-900 font-semibold hover:border-2 hover:border-red-900"> Add image</button>
+        <button id="clean" class="mt-4 rounded-lg p-3 bg-gray-200 text-red-900 block center mx-auto w-28 border border-red-900 hover:bg-red-900 hover:text-gray-200 hover:border-gray-200 font-semibold"> clean </button>
+
+        <div id="images" class=""></div>
+        <p class="text-gray-300 mt-40">Powered by https://randomfox.ca | Made by @Franciscocata10 💙 </p>
+      </div>
+    </div>
+
+    <!-- Add more scripts here -->
+    <script>
+      let totalImg = 0;
+      let loadedImg = 0;
+
+      const impLog = () => {
+      console.log(`🦊Total de imágenes: ${totalImg}`);
+      console.log(`🦊Imágenes cargadas: ${loadedImg}`);
+      console.log("---------------------------------")
+      };  
+    </script>
+    <script type="module" src="/_dist_/index.js"></script>  
+  </body>
+</html>
