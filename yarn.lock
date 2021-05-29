@@ -1444,6 +1444,11 @@
   "resolved" "https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz"
   "version" "1.0.1"
 
+"number-random@^1.0.0":
+  "integrity" "sha512-xIjyw73W8u1NjEb1DPq+s6+6aGZ0uPv2FlmzJU5peKUWe5gOKJkguQpvmWb/LmGjRlZbU0EVklymZm9V9gOsEg=="
+  "resolved" "https://registry.npmjs.org/number-random/-/number-random-1.0.0.tgz"
+  "version" "1.0.0"
+
 "oauth-sign@~0.9.0":
   "integrity" "sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ=="
   "resolved" "https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.9.0.tgz"
